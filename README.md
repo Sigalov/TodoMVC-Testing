@@ -15,6 +15,7 @@ This repository contains automated E2E tests for the TodoMVC application using S
 
 To run the tests, use the following command:
 ```bash
+cd tests
 pytest
 ```
 
