@@ -40,3 +40,12 @@ The project uses various pytest markers to categorize tests:
 - `toggle`: Tests related to toggling item status
 - `filter`: Tests related to filtering items
 - `count`: Tests related to counting items
+
+### Using Marks
+
+To run tests with a specific mark, use the `-m` option followed by the mark name. For example, to run tests related to adding items, use the following command:
+
+```bash
+pytest -m add
+```
+
